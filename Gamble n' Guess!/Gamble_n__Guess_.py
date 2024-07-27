@@ -15,7 +15,6 @@ def guessingGame():
         ethan = random.randint(1, 10)
         lives = 3
         
-        # Get a valid bet amount
         bet = int(input(f"Your balance is ${balance}, how much do you want to bet? "))
         
         while bet > balance or bet <= 0:
